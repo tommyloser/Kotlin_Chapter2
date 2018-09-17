@@ -5,8 +5,8 @@ import net.println.kotlin.chapter2.helloworld.HelloWorld
 /**
  * Created by benny on 2/26/17.
  */
-val FINAL_HELLO_WORLD: String = "Hello World"
-var helloWorld: String = FINAL_HELLO_WORLD
+val FINAL_HELLO_WORLD: String = "Hello World" //只读
+var helloWorld: String = FINAL_HELLO_WORLD //可写变量
 var nullableHelloWorld: String? = helloWorld
 val helloWorldArray: Array<Char> = arrayOf('H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd')
 val helloWorldCharArray: CharArray = charArrayOf('H', 'e', 'l', 'l', 'o', 'W', 'o', 'r', 'l', 'd')
